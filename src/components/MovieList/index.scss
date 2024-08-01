@@ -1,7 +1,7 @@
-.movie-card{
-    color: white;
-
-    .description{
-        color: #fff000;
-    }
+.movie-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    list-style: none;
+    width: 100%; 
 }

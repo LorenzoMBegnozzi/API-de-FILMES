@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import './index.scss';
 import axios from 'axios';
-import { Movie } from '@/Types';
+import { Movie } from '@/Types/movie';
 import MovieCard from '../MovirCard';
 
 
